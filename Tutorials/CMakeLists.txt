@@ -226,3 +226,16 @@ o2physics_add_dpl_workflow(consume
                   PUBLIC_LINK_LIBRARIES O2::Framework
                   COMPONENT_NAME AnalysisTutorial)
 
+<<<<<<< HEAD
+=======
+o2physics_add_dpl_workflow(h1-0-taskskeleton
+                  SOURCES /home/wfpw/O2Tutorial/analysis-tutorials/o2at-1/h1/o2at-h1-0-taskskeleton.cxx
+                  PUBLIC_LINK_LIBRARIES O2::Framework
+                  COMPONENT_NAME AnalysisTutorial)
+
+o2physics_add_dpl_workflow(simpleanalysis
+                  SOURCES /home/wfpw/O2Tutorial/analysis-tutorials/Zuzia/simpleanalysis.cxx
+                  PUBLIC_LINK_LIBRARIES O2::Framework
+                  COMPONENT_NAME AnalysisTutorial)
+                  
+>>>>>>> 671e7e72 (modification to tutorial)
